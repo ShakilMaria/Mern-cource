@@ -36,18 +36,21 @@
         <h2 style="margin-bottom: 20px; margin-top: 40px;"><abbr title="Hyper text merkup language">HTML</abbr> Basic</h2>
            <!-- document & doctype -->
         <h4>Html Document & Doctype declaretion</h4>
-         <div style="margin-left: 20px;">
+         <div style="margin: 0 0 0 20px;">
             <p>HTML ডকুমেন্ট নিজেই শুরু হয় &lthtml&gt দিয়ে এবং শেষ হয় &lt/html&gt দিয়ে</p>
             <P>HTML document শুরু করার জন্য প্রথমে doctype type declaretion করতে হবে। কোড শুরু/উপরে doctype type লিখতে হয় <br> Example: &lt!DOCTYPE html&gt</p>
          </div>
+
          <!-- heading -->
-         <h4 style="margin-top: 10px;">Html heading</h4>
+         <h4 style="margin-top: 20px;">Html heading</h4>
          <div style="margin-left: 20px;">
             <p>Heading &lth1&gt থেকে &lth6&gt  ট্যাগ দিয়ে সংজ্ঞায়িত করা হয়</p>
             <p>&lth1&gt সবচেয়ে শুরুত্বপূর্ণ heading এবং &lth6&gt সবচেয়ে কম গুরুতপূর্ণ heading </p>
          </div>
+         <a style="margin: 10px 0 20px 20px; display: inline-block; text-decoration: none; background-color: #524727; color: #F1BE48; border-radius: 10px; padding: 10px 20px;" href="https://www.w3schools.com/html/html_basic.asp" target="_blank">learn More</a>
+
  <!-- list -->
-      <h2 style="margin-top: 40px;">HTML list</h2>
+      <h2 style="margin-top: 40px;"><abbr title="Hyper text merkup language">HTML</abbr> List</h2>
       <div style="margin-left: 20px;">
         <p style="margin-top: 10px;">List তিন প্রকার</p>
          <ol>
@@ -55,50 +58,162 @@
               <li>Ordered HTML list</li>
               <li>HTML Description list</li>
          </ol>
-         <h4 style="margin-top: 10px;">Unordered HTML list</h4>
-         <p>Example code:</p>
-         
-         <div style="margin-left: 20px;">
+         <!-- Ordered list  -->
+         <h4 style="margin-top: 10px;">Ordered HTML list</h4>
 
-            &ltol&gt <br>
-            <p style="margin-left: 20px;">
-                &ltli&gtShakil &lt/li&gt <br> 
-                &ltli&gtSakib  &lt/li&gt <br>
-                &ltli&gtKhabir &lt/li&gt  <br>
-                &ltli&gtSamioul&lt/li&gt   <br>
-                &ltli&gtArafat &lt/li&gt   <br> 
-            </p>
+         <table border="1" style="border-collapse: collapse;">
+               <tr>
+                  <th>Example code</th>
+                  <th>View</th>
+               </tr>
+                <tr>
+                      <td>      <div style="margin-left: 20px;">
 
-            &lt/ol>
-         </div>
+                        &lt;ol&gt; <br>
+                        <p style="margin-left: 20px;">
+                            &lt;li&gt;Shakil &lt;/li&gt; <br> 
+                            &lt;li&gt;Sakib  &lt/li&gt; <br>
+                            &lt;li&gt;Khabir &lt/li&gt;  <br>
+                            &lt;li&gt;Samioul&lt/li&gt;  <br>
+                            &lt;li&gt;Arafat &lt/li&gt;   <br> 
+                        </p>
             
-         <p>view</p>
-         <ol>
-             <li>Shakil</li>
-             <li>Sakib</li>
-             <li>Khabir</li>
-             <li>Samioul</li>
-             <li>Arafat</li>
-         </ol>
+                        &lt;/ol&gt;
+                     </div></td>
+                     <td>
+                        <ol>
+                            <li>Shakil</li>
+                            <li>Sakib</li>
+                            <li>Khabir</li>
+                            <li>Samioul</li>
+                            <li>Arafat</li>
+                        </ol>
+               
+                     </td>
+                </tr>
+         </table>
+          
+                  <!-- UnOrdered list  -->
+                  <h4 style="margin-top: 10px;">UnOrdered HTML list</h4>
+                  <table border="1" style="border-collapse: collapse;">
+                    <tr>
+                       <th>Example code</th>
+                       <th>View</th>
+                    </tr>
+                     <tr>
+                           <td>     
+                             <div style="margin-left: 20px;">
+     
+                             &lt;ul&gt; <br>
+                             <p style="margin-left: 20px;">
+                                 &lt;li&gtShakil &lt;/li&gt; <br> 
+                                 &lt;li&gtSakib  &lt;/li&gt; <br>
+                                 &lt;li&gtKhabir &lt;/li&gt;  <br>
+                                 &lt;li&gtSamioul&lt;/li&gt;   <br>
+                                 &lt;li&gtArafat &lt;/li&gt;   <br> 
+                             </p>
+                 
+                             &lt;/ul&gt;
+                          </div></td>
+                          <td>
+                             <ul>
+                                 <li>Shakil</li>
+                                 <li>Sakib</li>
+                                 <li>Khabir</li>
+                                 <li>Samioul</li>
+                                 <li>Arafat</li>
+                             </ul>
+                    
+                          </td>
+                     </tr>
+              </table>
 
+
+
+              <!-- HTML Description List -->
+              <h4 style="margin-top: 10px;">HTML Description list</h4>
+                  <table border="1" style="border-collapse: collapse;">
+                    <tr>
+                       <th>Example code</th>
+                       <th>View</th>
+                    </tr>
+                     <tr>
+                           <td>     
+                             <div style="margin-left: 20px;">
+     
+                             &lt;dl&gt; <br>
+                             <p style="margin-left: 20px;">
+                                 &lt;dt&gt;Shakil &lt;/dt&gt; <br> 
+                                 &lt;dd&gt;মামা  &lt;/dd&gt; <br>
+                                 &lt;dt&gt;Khabir &lt;/dt&gt;  <br>
+                                 &lt;dd&gt;বাগিনা&lt;/dd&gt;   <br>
+                                 &lt;dt&gt;Arafat &lt;/dt&gt;   <br> 
+                                 &lt;dd&gt;ছেলে &lt;/dd&gt;   <br> 
+                             </p>
+                 
+                             &lt;/dl&gt;
+                          </div></td>
+                          <td> 
+                            <div style="margin: 20px;">
+                                <dl>
+                                    <dt> Samioul </dt> 
+                                    <dd style="margin-left: 10px;">  বাগিনা  </dd>
+                                    <dt> Khabir </dt> 
+                                    <dd style="margin-left: 10px;"> বাগিনা </dd>    
+                                    <dt> Arafat </dt>   
+                                    <dd style="margin-left: 10px;"> ছেলে </dd> 
+                                </dl>
+                            </div>
+                            
+                    
+                          </td>
+                     </tr>
+              </table>
+              <a style="margin: 10px 0 20px 20px; display: inline-block; text-decoration: none; background-color: #524727; color: #F1BE48; border-radius: 10px; padding: 10px 20px;" href="https://www.w3schools.com/html/html_lists.asp" target="_blank">learn More</a>
+ 
       </div>
 
+      <!-- Table -->
+      <h2 style="margin-top: 40px;"><abbr title="Hyper text merkup language">HTML</abbr> Table</h2>
+       
+      <table style="width:100%">
+        <tr>
+          <th style="width:70%; border-collapse: collapse; border: 2px solid white; background-color:#F1BE48" >Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
 
 
 
-     <ol>
-         <li>
-             <h3>Blockquote</h3>
-             <blockquote>কোন কন্টেনকে পেড় করা লিখা বা বা  বিশেষ মার্জিন ব্যবহারের ক্ষেত্রে  <b> blockquoteTag</b>  
-             ব্যবহার করা হয় । এই পেড়াটি blockqoute দিয়ে লেখা হয়েছে। </blockquote>
-         </li>
-         <li>
- 
-         </li>
-     </ol>
+<div style="margin: 40px 0;">
+    <ol>
+        <li>
+            <h3>Blockquote</h3>
+            <blockquote>কোন কন্টেনকে পেড় করা লিখা বা বা  বিশেষ মার্জিন ব্যবহারের ক্ষেত্রে  <b> blockquoteTag</b>  
+            ব্যবহার করা হয় । এই পেড়াটি blockqoute দিয়ে লেখা হয়েছে। </blockquote>
+        </li>
+        <li>
+
+        </li>
+    </ol>
+</div>
+     
      <img style="margin: auto; display: block;" width="400" src="/20231128_224254.png" alt="">
     </div>
 
-
+<footer style="background-color: #F1BE48; color: #524727; padding: 40px;">
+       <h1 style="text-align: center;">Footer</h1>
+</footer>
 </body>
 </html>
